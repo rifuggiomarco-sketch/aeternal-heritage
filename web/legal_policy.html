@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Vault Heritage - Legal Policy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            text-align: center;
+            padding: 40px 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            margin: -20px -20px 40px -20px;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .language-selector {
+            background: white;
+            border-radius: 30px;
+            padding: 10px 20px;
+            display: inline-block;
+            margin-top: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .language-selector select {
+            border: none;
+            background: transparent;
+            font-size: 16px;
+            padding: 5px 10px;
+            outline: none;
+        }
+        
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin: 40px 0;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .section h2 {
+            color: #667eea;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        .section h3 {
+            color: #333;
+            font-size: 1.3em;
+            margin: 20px 0 10px 0;
+        }
+        
+        .section p, .section li {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        .section ul {
+            margin-left: 20px;
+        }
+        
+        .section li {
+            margin-bottom: 10px;
+        }
+        
+        .highlight {
+            background-color: #e8f4fd;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        
+        .compliance-box {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 40px 0;
+            background-color: #f8f9fa;
+            margin-top: 40px;
+            border-top: 1px solid #e9ecef;
+        }
+        
+        .contact-info {
+            background: #e9ecef;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        @media (max-width: 768px) {
+            .content {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .container {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Digital Vault Heritage</h1>
+            <p>Secure Your Digital Legacy</p>
+            <div class="language-selector">
+                <select id="languageSelect" onchange="changeLanguage()">
+                    <option value="en">🇺🇸 English</option>
+                    <option value="it">🇮🇹 Italiano</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="content">
+            <!-- English Version -->
+            <div id="en-content" class="language-content">
+                <div class="section">
+                    <h2>Terms of Service</h2>
+                    <h3>1. Acceptance of Terms</h3>
+                    <p>By accessing and using Digital Vault Heritage ("the Service"), you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the terms of this agreement, you are not authorized to use or access the Service.</p>
+                    
+                    <h3>2. Description of Service</h3>
+                    <p>Digital Vault Heritage is a secure digital inheritance platform that allows users to store, encrypt, and manage their digital assets for future inheritance by designated heirs. The Service includes:</p>
+                    <ul>
+                        <li>Secure document storage with AES-256-GCM encryption</li>
+                        <li>Dead Man's Switch functionality with multi-channel check-in</li>
+                        <li>Conditional inheritance rules and heir management</li>
+                        <li>Periodic vault status reporting</li>
+                        <li>Subscription-based premium features</li>
+                    </ul>
+                    
+                    <h3>3. User Responsibilities</h3>
+                    <p>As a user of the Service, you agree to:</p>
+                    <ul>
+                        <li>Maintain the security of your account credentials</li>
+                        <li>Provide accurate and complete information for heir designation</li>
+                        <li>Ensure all uploaded content complies with applicable laws</li>
+                        <li>Regularly perform check-ins for Dead Man's Switch functionality</li>
+                        <li>Keep your recovery key in a secure location</li>
+                    </ul>
+                    
+                    <h3>4. Payment Terms</h3>
+                    <p>The Service offers both free and premium subscription plans. Payment terms include:</p>
+                    <ul>
+                        <li>Free Plan: 10 documents, 1 heir, basic features</li>
+                        <li>Premium Plan: 100 documents, 5 heirs, advanced features</li>
+                        <li>Lifetime Plan: Unlimited documents and heirs, all features</li>
+                        <li>Payments are processed through secure third-party payment processors</li>
+                        <li>Refunds are available according to our prorated refund policy</li>
+                    </ul>
+                    
+                    <h3>5. Limitation of Liability</h3>
+                    <p>Digital Vault Heritage is not a legal service and does not provide legal advice. Our liability is limited to:</p>
+                    <ul>
+                        <li>Providing the technical infrastructure for secure storage</li>
+                        <li>Ensuring encryption and data protection measures</li>
+                        <li>Maintaining service availability and performance</li>
+                    </ul>
+                    <p>We are not liable for:</p>
+                    <ul>
+                        <li>Legal validity of inheritance arrangements</li>
+                        <li>User failure to maintain proper security measures</li>
+                        <li>Loss of recovery keys or credentials</li>
+                        <li>Third-party service interruptions</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h2>Privacy Policy</h2>
+                    <div class="compliance-box">
+                        <h3>🛡️ Zero-Knowledge Defense</h3>
+                        <p><strong>Critical Privacy Protection:</strong> All encryption and decryption happens on your device. We cannot access your plaintext data, encryption keys, or recovery keys. Your digital legacy remains completely private and under your control.</p>
+                    </div>
+                    
+                    <h3>1. Data Collection</h3>
+                    <p>We collect only the minimum information necessary to provide the Service:</p>
+                    <ul>
+                        <li>Account information (email, name)</li>
+                        <li>Payment processing information (processed by third parties)</li>
+                        <li>Service usage analytics (aggregated and anonymized)</li>
+                        <li>Security event logs (for service protection)</li>
+                    </ul>
+                    
+                    <h3>2. Data Protection</h3>
+                    <p>Your data is protected through:</p>
+                    <ul>
+                        <li>End-to-end AES-256-GCM encryption</li>
+                        <li>Zero-knowledge architecture</li>
+                        <li>Secure key derivation with PBKDF2</li>
+                        <li>Regular security audits and penetration testing</li>
+                    </ul>
+                    
+                    <h3>3. Data Retention</h3>
+                    <p>We retain data only as long as necessary:</p>
+                    <ul>
+                        <li>Account data: Until account deletion</li>
+                        <li>Payment data: Processed by third parties according to their policies</li>
+                        <li>Security logs: 90 days for service protection</li>
+                        <li>Analytics data: Aggregated and anonymized indefinitely</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h2>Compliance & Legal</h2>
+                    <div class="compliance-box">
+                        <h3>🇪🇺 GDPR Compliance (European Union)</h3>
+                        <p>We fully comply with GDPR requirements:</p>
+                        <ul>
+                            <li><strong>Right to Access:</strong> You can request a copy of your data</li>
+                            <li><strong>Right to Rectification:</strong> You can correct inaccurate data</li>
+                            <li><strong>Right to Erasure:</strong> You can request deletion of your data</li>
+                            <li><strong>Right to Portability:</strong> You can transfer your data to other services</li>
+                            <li><strong>Right to Object:</strong> You can object to certain data processing</li>
+                            <li><strong>Data Protection Officer:</strong> [INSERT_PRIVACY_CONTACT]</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="compliance-box">
+                        <h3>🇺🇸 CCPA Compliance (California)</h3>
+                        <p>For California residents, we provide CCPA rights:</p>
+                        <ul>
+                            <li><strong>Right to Know:</strong> Information about data collection and use</li>
+                            <li><strong>Right to Delete:</strong> Request deletion of personal information</li>
+                            <li><strong>Right to Opt-Out:</strong> Opt-out of sale of personal information</li>
+                            <li><strong>Non-Discrimination:</strong> No discrimination for exercising privacy rights</li>
+                            <li><strong>Authorized Agent:</strong> Designate someone to exercise rights on your behalf</li>
+                        </ul>
+                    </div>
+                    
+                    <h3>International Data Transfers</h3>
+                    <p>Your data may be transferred to and processed in countries other than your own. We ensure:</p>
+                    <ul>
+                        <li>Adequate level of protection under GDPR standards</li>
+                        <li>Standard contractual clauses for international transfers</li>
+                        <li>Compliance with applicable data protection laws</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h2>Service Level Agreement</h2>
+                    <h3>1. Uptime Commitment</h3>
+                    <p>We strive to maintain 99.9% service availability, excluding:</p>
+                    <ul>
+                        <li>Scheduled maintenance (announced 48 hours in advance)</li>
+                        <li>Force majeure events</li>
+                        <li>Third-party service failures</li>
+                        <li>User equipment or network issues</li>
+                    </ul>
+                    
+                    <h3>2. Support</h3>
+                    <p>Customer support is available through:</p>
+                    <ul>
+                        <li>Email: [INSERT_SUPPORT_EMAIL]</li>
+                        <li>Response time: Within 24 hours for critical issues</li>
+                        <li>Language support: English and Italian</li>
+                        <li>Knowledge base and documentation available 24/7</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Italian Version -->
+            <div id="it-content" class="language-content" style="display: none;">
+                <div class="section">
+                    <h2>Termini di Servizio</h2>
+                    <h3>1. Accettazione dei Termini</h3>
+                    <p>Accedendo e utilizzando Digital Vault Heritage ("il Servizio"), accetti e accetti di essere vincolato dai termini e dalle disposizioni di questo accordo. Se non accetti di rispettare i termini di questo accordo, non sei autorizzato a utilizzare o accedere al Servizio.</p>
+                    
+                    <h3>2. Descrizione del Servizio</h3>
+                    <p>Digital Vault Heritage è una piattaforma sicura di eredità digitale che permette agli utenti di memorizzare, crittografare e gestire i propri beni digitali per l'eredità futura da parte degli eredi designati. Il Servizio include:</p>
+                    <ul>
+                        <li>Archiviazione sicura dei documenti con crittografia AES-256-GCM</li>
+                        <li>Funzionalità Dead Man's Switch con check-in multi-canale</li>
+                        <li>Regole di eredità condizionale e gestione degli eredi</li>
+                        <li>Report periodici dello stato della cassaforte</li>
+                        <li>Funzionalità premium basate su abbonamento</li>
+                    </ul>
+                    
+                    <h3>3. Responsabilità dell'Utente</h3>
+                    <p>Come utente del Servizio, accetti di:</p>
+                    <ul>
+                        <li>Mantenere la sicurezza delle tue credenziali account</li>
+                        <li>Fornire informazioni accurate e complete per la designazione degli eredi</li>
+                        <li>Assicurare che tutti i contenuti caricati siano conformi alle leggi applicabili</li>
+                        <li>Eseguire regolarmente i check-in per la funzionalità Dead Man's Switch</li>
+                        <li>Mantenere la tua chiave di recupero in un luogo sicuro</li>
+                    </ul>
+                    
+                    <h3>4. Termini di Pagamento</h3>
+                    <p>Il Servizio offre piani di abbonamento gratuiti e premium. I termini di pagamento includono:</p>
+                    <ul>
+                        <li>Piano Gratuito: 10 documenti, 1 erede, funzionalità di base</li>
+                        <li>Piano Premium: 100 documenti, 5 eredi, funzionalità avanzate</li>
+                        <li>Piano Vitalizio: Documenti ed eredi illimitati, tutte le funzionalità</li>
+                        <li>I pagamenti sono elaborati tramite processori di pagamento sicuri di terze parti</li>
+                        <li>I rimborsi sono disponibili secondo la nostra politica di rimborso proporzionale</li>
+                    </ul>
+                    
+                    <h3>5. Limitazione di Responsabilità</h3>
+                    <p>Digital Vault Heritage non è un servizio legale e non fornisce consulenza legale. La nostra responsabilità è limitata a:</p>
+                    <ul>
+                        <li>Fornire l'infrastruttura tecnica per l'archiviazione sicura</li>
+                        <li>Assicurare misure di crittografia e protezione dei dati</li>
+                        <li>Mantenere la disponibilità e le prestazioni del servizio</li>
+                    </ul>
+                    <p>Non siamo responsabili per:</p>
+                    <ul>
+                        <li>Validità legale degli accordi di eredità</li>
+                        <li>Fallimento dell'utente nel mantenere misure di sicurezza adeguate</li>
+                        <li>Perdita di chiavi di recupero o credenziali</li>
+                        <li>Interruzioni di servizi di terze parti</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h2>Privacy Policy</h2>
+                    <div class="compliance-box">
+                        <h3>🛡️ Difesa Zero-Knowledge</h3>
+                        <p><strong>Protezione Privacy Critica:</strong> Tutta la crittografia e decrittografia avviene sul tuo dispositivo. Non possiamo accedere ai tuoi dati in chiaro, alle chiavi di crittografia o alle chiavi di recupero. Il tuo patrimonio digitale rimane completamente privato e sotto il tuo controllo.</p>
+                    </div>
+                    
+                    <h3>1. Raccolta Dati</h3>
+                    <p>Raccogliamo solo le informazioni minime necessarie per fornire il Servizio:</p>
+                    <ul>
+                        <li>Informazioni account (email, nome)</li>
+                        <li>Informazioni di elaborazione pagamenti (elaborate da terze parti)</li>
+                        <li>Analytics di utilizzo del servizio (aggregati e anonimizzati)</li>
+                        <li>Log degli eventi di sicurezza (per la protezione del servizio)</li>
+                    </ul>
+                    
+                    <h3>2. Protezione Dati</h3>
+                    <p>I tuoi dati sono protetti attraverso:</p>
+                    <ul>
+                        <li>Crittografia end-to-end AES-256-GCM</li>
+                        <li>Architettura zero-knowledge</li>
+                        <li>Derivazione sicura delle chiavi con PBKDF2</li>
+                        <li>Audit di sicurezza regolari e test di penetrazione</li>
+                    </ul>
+                    
+                    <h3>3. Conservazione Dati</h3>
+                    <p>Conserviamo i dati solo per il tempo necessario:</p>
+                    <ul>
+                        <li>Dati account: Fino alla cancellazione dell'account</li>
+                        <li>Dati pagamento: Elaborati da terze parti secondo le loro politiche</li>
+                        <li>Log di sicurezza: 90 giorni per la protezione del servizio</li>
+                        <li>Dati analytics: Aggregati e anonimizzati indefinitamente</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h2>Conformità e Legale</h2>
+                    <div class="compliance-box">
+                        <h3>🇪🇺 Conformità GDPR (Unione Europea)</h3>
+                        <p>Rispettiamo pienamente i requisiti GDPR:</p>
+                        <ul>
+                            <li><strong>Diritto di Accesso:</strong> Puoi richiedere una copia dei tuoi dati</li>
+                            <li><strong>Diritto di Rettifica:</strong> Puoi correggere dati inesatti</li>
+                            <li><strong>Diritto alla Cancellazione:</strong> Puoi richiedere la cancellazione dei tuoi dati</li>
+                            <li><strong>Diritto alla Portabilità:</strong> Puoi trasferire i tuoi dati ad altri servizi</li>
+                            <li><strong>Diritto di Opposizione:</strong> Puoi opporti a determinati trattamenti dei dati</li>
+                            <li><strong>Data Protection Officer:</strong> [INSERISCI_CONTATTO_PRIVACY]</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="compliance-box">
+                        <h3>🇺🇸 Conformità CCPA (California)</h3>
+                        <p>Per i residenti in California, forniamo i diritti CCPA:</p>
+                        <ul>
+                            <li><strong>Diritto a Sapere:</strong> Informazioni sulla raccolta e utilizzo dei dati</li>
+                            <li><strong>Diritto alla Cancellazione:</strong> Richiedere la cancellazione delle informazioni personali</li>
+                            <li><strong>Diritto di Opt-Out:</strong> Opt-out dalla vendita di informazioni personali</li>
+                            <li><strong>Non Discriminazione:</strong> Nessuna discriminazione per l'esercizio dei diritti privacy</li>
+                            <li><strong>Agente Autorizzato:</strong> Designare qualcuno per esercitare i diritti per tuo conto</li>
+                        </ul>
+                    </div>
+                    
+                    <h3>Trasferimenti di Dati Internazionali</h3>
+                    <p>I tuoi dati possono essere trasferiti e elaborati in paesi diversi dal tuo. Assicuriamo:</p>
+                    <ul>
+                        <li>Livello di protezione adeguato secondo gli standard GDPR</li>
+                        <li>Clausole contrattuali standard per trasferimenti internazionali</li>
+                        <li>Conformità con le leggi sulla protezione dati applicabili</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h2>Accordo sul Livello di Servizio</h2>
+                    <h3>1. Impegno di Uptime</h3>
+                    <p>Ci impegniamo a mantenere il 99.9% di disponibilità del servizio, escludendo:</p>
+                    <ul>
+                        <li>Manutenzione programmata (annunciata 48 ore prima)</li>
+                        <li>Eventi di forza maggiore</li>
+                        <li>Guasti di servizi di terze parti</li>
+                        <li>Problemi di attrezzature o rete dell'utente</li>
+                    </ul>
+                    
+                    <h3>2. Supporto</h3>
+                    <p>Il supporto clienti è disponibile attraverso:</p>
+                    <ul>
+                        <li>Email: [INSERISCI_EMAIL_SUPPORTO]</li>
+                        <li>Tempo di risposta: Entro 24 ore per problemi critici</li>
+                        <li>Supporto linguistico: Inglese e Italiano</li>
+                        <li>Base di conoscenza e documentazione disponibili 24/7</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="highlight">
+            <h3>⚠️ Important Legal Notice</h3>
+            <p><strong>Digital Vault Heritage is NOT a legal service and does NOT constitute legal advice.</strong> This service provides technical infrastructure for secure digital storage and inheritance management. For legal advice regarding estate planning, wills, or inheritance matters, please consult with qualified legal professionals in your jurisdiction.</p>
+        </div>
+
+        <div class="contact-info">
+            <h3>📞 Contact Information</h3>
+            <p><strong>Company:</strong> [INSERT_COMPANY_NAME]</p>
+            <p><strong>Legal Address:</strong> [INSERT_LEGAL_ADDRESS]</p>
+            <p><strong>Support Email:</strong> [INSERT_SUPPORT_EMAIL]</p>
+            <p><strong>Privacy Contact:</strong> [INSERT_PRIVACY_CONTACT]</p>
+            <p><strong>Owner Details:</strong> [INSERT_OWNER_DETAILS]</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 [INSERT_COMPANY_NAME]. All rights reserved.</p>
+        <p>Last updated: May 5, 2024</p>
+    </div>
+
+    <script>
+        function changeLanguage() {
+            const select = document.getElementById('languageSelect');
+            const enContent = document.getElementById('en-content');
+            const itContent = document.getElementById('it-content');
+            
+            if (select.value === 'it') {
+                enContent.style.display = 'none';
+                itContent.style.display = 'block';
+                document.title = 'Digital Vault Heritage - Policy Legale';
+            } else {
+                enContent.style.display = 'block';
+                itContent.style.display = 'none';
+                document.title = 'Digital Vault Heritage - Legal Policy';
+            }
+        }
+        
+        // Detect browser language
+        window.addEventListener('load', function() {
+            const browserLang = navigator.language || navigator.userLanguage;
+            const select = document.getElementById('languageSelect');
+            
+            if (browserLang.startsWith('it')) {
+                select.value = 'it';
+            } else {
+                select.value = 'en';
+            }
+            
+            changeLanguage();
+        });
+    </script>
+</body>
+</html>
